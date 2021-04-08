@@ -122,7 +122,7 @@ def ping(host, timeout=1):
         print(delay)
         time.sleep(1)  # one second
         loop += 1
-    return vars
+    return vars()
 
 if __name__ == '__main__':
     ping("google.co.il")
